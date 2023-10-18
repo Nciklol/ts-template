@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "watch:start": "tsc-watch --onSuccess \"node .\"",
-    "start": "node ."
+    "start": "node .",
+    "dev": "yarn build && yarn start"
   },
   "eslintConfig": {
     "extends": "@sapphire"
